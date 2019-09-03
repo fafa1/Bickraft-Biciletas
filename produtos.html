@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/produtos.css">
-    <title>Bikcraft - Sobre</title>
+    <link rel="stylesheet" href="css/responsivo.css">
+    <title>Bikcraft - Protudos</title>
 </head>
 <body>
     <header class="header">
@@ -20,7 +21,7 @@
         <nav class="header_menu grid-12">
             <ul>
               <li><a href="sobre.html">Sobre</a></li>
-              <li><a href="produtos.html" class="ativo">Produtos</a></li>
+              <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
               <li><a href="portifolio.html">Portifólio</a></li>
               <li><a href="contato.html">Contato</a></li>
             </ul>
@@ -79,7 +80,7 @@
       </div>
     </section>
 
-    <section class="container produto_item space">
+    <section class="container produto_item">
       <div class="grid-11">
         <img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft retro 1">
         <h2>Retro</h2>
@@ -101,49 +102,45 @@
       </div>
     </section>
 
-    <section class="quebra">
+    <section class="orcamento">
       <div class="container">
-        <blockquote class="quote-externo">
-          <p>"não tenha nada em sua casa que você não considere útil ou acredita não ser bonito"
-          </p>
-          <cite>WILLIAM MORRIS</cite>
-        </blockquote>
+        <h2 class="subtitulo">Orçamento</h2>
+        <div class="grid-8 orcamento_form">
+          <form id="form_orcamento" class="form" action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" autocomplete="off" id="nome">
+
+            <label for="email">Email</label>
+            <input type="text" autocomplete="off" name="email" id="email">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" autocomplete="off" name="telefone" id="telefone">
+
+            <label for="menssagem">Messagem</label>
+            <textarea name="messagem" id="menssagem" cols="30" rows="5"></textarea>
+
+            <button type="submit" class="btn" >Enviar</button>
+          </form>
+        </div>
+
+        <div class="grid-8 orcamento_inf">
+          <h3>Dados</h3>
+          <p>+55 71 99645 8225</p>
+          <p class="titulo_info">bfagner@hotmail.com</p>
+          
+          <h3>Monte sua Bikcraft</h3>
+          <p>Escolha as especificações:</p>
+          <ul>
+            <li>- Cores</li>
+            <li>- Estilo</li>
+            <li>- Medidas</li>
+            <li>- Acessórios</li>
+            <li>- Outros</li>
+          </ul>
+         </div>
+
       </div>
     </section>
 
-    <footer>
-      <div class="footer">
-        <div class="container">
-          <ul class="footer_lista">
-            <li class="grid-1-3">
-              <h2 class="subtitulo">Nossa História</h2>
-                <p>
-                  O verdadeiro segredo da fidelidade está em ter um genuíno
-                  interesse por todos os detalhes da vida cotidiana.
-                </p>
-            </li>
-            <li class="grid-1-3 lista-type">
-              <h2 class="subtitulo">Contato</h2>
-              <p>- 71659-82214</p>
-              <p>- batista@hotmail.com</p>
-              <p>- Salvador - BA</p>
-            </li>
-            <li class="grid-1-3">
-              <h2 class="subtitulo">Redes Sociais</h2>
-              <ul class="footer_redeSociais">
-                <li><a href="https://pt-br.facebook.com/" target="_blank"><img src="img/redes-sociais/facebook.png" alt="facebook"></a></li>
-                <li><a href="http://" target="_blank"><img src="img/redes-sociais/instagram.png" alt="instagram"></a></li>
-                <li><a href="http://" target="_blank"><img src="img/redes-sociais/twitter.png" alt="twitter"></a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="copy">
-        <div class="container">
-          <p class="grid-16">Origamid - Alguns direitos reservados </p>
-        </div>
-      </div>
-    </footer>
 </body>
 </html>
