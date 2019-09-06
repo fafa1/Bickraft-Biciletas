@@ -386,3 +386,16 @@ img {
 	background: #fec63e;
 	padding: 20px 0;
 }
+
+[data-anime] {
+	opacity: 0;
+}
+
+.fadeInDown {
+	transform: translate3d(0,-40px,0);
+}
+.anime {
+  opacity: 1;
+  transform: none;
+  transition: transform .9s, opacity .9ms;
+}
