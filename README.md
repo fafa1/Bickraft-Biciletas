@@ -1,3 +1,3 @@
-# Bickraft-origamid
+# Bickraft-Bicicletas
 
-Criado por meio do curso da Origamid!
+Executar apenas o arquivo index.html
